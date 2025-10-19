@@ -1,0 +1,14 @@
+# Ignore build artifacts
+/build/
+*.o
+*.exe
+
+# Ignore dependency caches
+node_modules/
+
+# Ignore sensitive information
+*.env
+
+# Ignore temporary files
+*.log
+*.tmp

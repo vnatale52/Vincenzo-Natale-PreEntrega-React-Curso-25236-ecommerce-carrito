@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "name": "Auriculares Bluetooth Pro",
+    "description": "Auriculares inalámbricos con cancelación activa de ruido, sonido equilibrado y 35h batería.",
+    "price": 145.99,
+    "image": "/product1.png",
+    "stock": 25
+  },
+  {
+    "id": "2",
+    "name": "Smartwatch UltraFit",
+    "description": "Reloj inteligente con seguimiento de salud 24/7, GPS y pantalla AMOLED.",
+    "price": 199.0,
+    "image": "/product2.png",
+    "stock": 40
+  },
+  {
+    "id": "3",
+    "name": "Teclado Mecánico TKL RGB",
+    "description": "Teclado compacto 87 teclas, switches ópticos y retroiluminación RGB personalizable.",
+    "price": 89.5,
+    "image": "/product3.png",
+    "stock": 15
+  },
+  {
+    "id": "4",
+    "name": "Monitor 27 QHD 144Hz",
+    "description": "Monitor 27 pulgadas, 1440p IPS, 1ms MPRT y alta tasa de refresco para gaming y diseño.",
+    "price": 329.99,
+    "image": "/product4.png",
+    "stock": 8
+  },
+  {
+    "id": "5",
+    "name": "Cámara Web 1080p",
+    "description": "Cámara Full HD con micrófono integrado y corrección automática de luz para streaming.",
+    "price": 49.9,
+    "image": "/product5.png",
+    "stock": 60
+  }
+]
