@@ -8,7 +8,7 @@ export async function getProducts(){
     return await res.json()
   } else {
     // Si la fuente es local, se cargan los productos del archivo JSON estático.
-    const res = await fetch('/dist/demo-products.json')    //  probado también con:   fetch('/src/services/demo-products.json' y en /public)
+    const res = await fetch('/src/services/demo-products.json')    //  probado también con:   /distr   y  con /public
     if(!res.ok) throw new Error('Failed to load local demo products')
     return await res.json()
   }
