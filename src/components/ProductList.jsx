@@ -5,7 +5,7 @@ import MiniCartButton from './MiniCartButton.jsx'
 import CartPanel from './CartPanel.jsx' // Importa CartPanel para su estado
 import { useCart } from '../context/CartContext.jsx'
 
-const DEFAULT_LOCAL = '/dist/demo-products.json'   // probado también con '/src/services/demo-products.json' y en /public
+const DEFAULT_LOCAL = '/src/services/demo-products.json'   // probado también con /dist y con /public
 
 async function fetchFromMock(url){
   const res = await fetch(url)
